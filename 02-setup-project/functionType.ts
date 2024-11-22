@@ -9,7 +9,7 @@ function printResult(result:string) {
 // let combineValue:Function= add;
 let combineValue:(a:number,b:number) => number = add;
 
-function callback(a:number,b:number,cb:(result) => void) {
+function callback(a:number,b:number,cb:(result:any) => void) {
     cb(a+b)
 }
 
